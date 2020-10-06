@@ -1,2 +1,2 @@
 # ForumAlgoritmos
- Exercicios forum disciplina Algoritmos
+ Exercicios forum disciplina Algoritmos feito na IDE NETBEANS.
