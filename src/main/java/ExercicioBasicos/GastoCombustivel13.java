@@ -11,7 +11,7 @@ public class GastoCombustivel13 {
         
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Informe o tempo gasto na viagem e a velocidade média em km/h: ");
+        System.out.println("Informe o tempo gasto (em horas) na viagem e a velocidade média em km/h: ");
         objeto.setTempogasto(scan.nextInt());
         objeto.setVelocidademedia(scan.nextInt());
         objeto.setConsumomedio(12);
@@ -23,7 +23,7 @@ public class GastoCombustivel13 {
         objeto.setTotalcombustivel((double) objeto.getDistancia()/objeto.getConsumomedio());
         
         
-        System.out.printf("Quantidade combustivel em litros necessária = %,.3f\n", objeto.getTotalcombustivel());
+        System.out.printf("Quantidade combustivel (em litros) necessária para viagem = %,.3f\n", objeto.getTotalcombustivel());
         
     }
 }

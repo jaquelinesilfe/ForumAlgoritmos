@@ -16,7 +16,7 @@ public class ExtremamenteBasico01 {
     
     objeto.setX(objeto.getA() + objeto.getB());
     
-    System.out.println(" A soma dos dois numeros é X = " + objeto.getX());
+    System.out.println("X = " + objeto.getX());
     
     }
 }
